@@ -7,7 +7,6 @@ import Img4 from "../../../assets/img/house.png"
 import Img5 from "../../../assets/img/message.png"
 import "../../../assets/css/cart/cartHeader.css"
 
-const { Paragraph } = Typography;
 const menu = (
   <Menu>
     <Menu.Item>
@@ -74,7 +73,7 @@ export default class CartHeader extends Component {
         >
         </PageHeader>
         <div style={{width:"100%",textAlign:"center",height:"46px",borderBottom:"1px solid #d8d8d8"}}>
-          <p>
+          <p style={{fontSize:"13px"}}>
             <Button className="login-btn">登录</Button>
             后，您可以同步电脑和手机购物车中的商品
           </p>
