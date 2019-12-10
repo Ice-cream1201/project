@@ -29,7 +29,7 @@ const menu = (
     </Menu.Item>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="#">
-        <img src={Img4} className="cartImg" alt=""/>
+        <img src={Img4} className="cartImg4" alt=""/>
         体验馆
       </a>
     </Menu.Item>
