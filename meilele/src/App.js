@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import 'antd/dist/antd.css'
-import Search from "./pages/search/Search"
-import Cart from "./pages/cart/Cart"
+import Search from "./pages/search"
+import Cart from "./pages/cart"
 
 class App extends Component {
     render() {
