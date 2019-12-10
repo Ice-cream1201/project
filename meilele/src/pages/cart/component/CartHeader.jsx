@@ -7,17 +7,27 @@ const menu = (
   <Menu>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="#">
-        1st menu item
+        商城首页
       </a>
     </Menu.Item>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="#">
-        2nd menu item
+        分类搜索
       </a>
     </Menu.Item>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="#">
-        3rd menu item
+        个人中心
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a target="_blank" rel="noopener noreferrer" href="#">
+        体验馆
+      </a>
+    </Menu.Item>
+    <Menu.Item>
+      <a target="_blank" rel="noopener noreferrer" href="#">
+        咨询客服
       </a>
     </Menu.Item>
   </Menu>
