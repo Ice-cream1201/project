@@ -1,0 +1,95 @@
+.classLeft {
+    height: 6rem;
+    border-right: 1px solid #dfdfdf;
+}
+
+.ant-menu-inline {
+    width: .9rem;
+    border: 0;
+}
+
+.ant-menu-inline .ant-menu-item-selected {
+    width: 100%;
+    border-left: 2px solid #c81c28;
+    width: 100%;
+    height: .24rem;
+    line-height: .24rem;
+    color: #c81c28;
+    margin-top: .22rem;
+    font-size: .16rem;
+    padding-left: .18rem;
+}
+
+.ant-menu-inline .ant-menu-item-selected::after {
+    border-right: 3px solid #fff;
+}
+
+.ant-menu-item-selected:hover {
+    color: #c81c28;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background: #fff;
+}
+
+.classRight {
+    padding-left: .13rem;
+    padding-right: .13rem;
+}
+
+.class-text {
+    font-size: .16rem;
+    color: #333;
+    padding-top: .22rem;
+    padding-left: .06rem;
+    box-sizing: border-box;
+}
+
+.class-img {
+    width: 2.5rem;
+    padding-left: .06rem;
+    display: flex;
+    justify-content: space-around;
+    padding-top: .22rem;
+    box-sizing: border-box;
+}
+
+.class-i {
+    width: .75rem;
+    height: .9rem;
+}
+
+.popular {
+    width: 2.5rem;
+    padding-left: .06rem;
+    padding-top: .22rem;
+    box-sizing: border-box;
+}
+
+.popular-li {
+    width: .76rem;
+    height: .92rem;
+    white-space: nowrap;
+    display: block;
+    float: left;
+    margin: 10px 8px 0 0;
+}
+
+.last {
+    margin: 10px 0 0 0;
+}
+
+.popular-i {
+    width: .76rem;
+    height: .76rem;
+}
+
+.popular-text {
+    display: block;
+    height: .16rem;
+    width: .76rem;
+    line-height: .16rem;
+    font-size: .13rem;
+    color: #3a3a3a;
+    text-align: center;
+}
