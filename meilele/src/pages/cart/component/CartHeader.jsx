@@ -63,21 +63,17 @@ export default class CartHeader extends Component {
       <div style={{backgroundColor:"#fff"}}>
         <PageHeader
           style={{
-            border: '.01rem solid rgb(235, 237, 240)',
+            border: '1px solid #d8d8d8',
           }}
-          onBack={() => null}
+          ghost={false}
+          onBack={() => window.history.back()}
           title="购物车"
           extra={[
             <DropdownMenu key="more" />
           ]}
         >
         </PageHeader>
-        <div style={{width:"100%",textAlign:"center",height:".46rem",borderBottom:".01rem solid #d8d8d8"}}>
-          <p style={{fontSize:".13rem",lineHeight:".46rem"}}>
-            <Button className="login-btn">登录</Button>
-            后，您可以同步电脑和手机购物车中的商品
-          </p>
-        </div>
+        
       </div>
     )
   }
