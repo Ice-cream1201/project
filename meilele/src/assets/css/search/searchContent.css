@@ -6,3 +6,19 @@
     padding-left: .16rem;
     background: #ebebeb;
 }
+
+.thermique-ul {
+    height: 2.04rem;
+    padding: .15rem .05rem .065rem .15rem;
+    float: left;
+}
+
+.thermique-ul>li {
+    padding: .06rem .18rem;
+    margin: 0 .1rem .085rem 0;
+    float: left;
+    font-size: .14rem;
+    line-height: .14rem;
+    border: 1px solid #ccc;
+    border-radius: .05rem;
+}
