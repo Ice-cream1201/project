@@ -1,0 +1,69 @@
+.limit{
+    width: 100%;
+    background: #fff;
+    margin-top: .05rem;
+    padding-bottom: .3rem;
+}
+.limit .title{
+    width: 100%;
+    padding: .21rem 0 .21rem 0;
+    font-size: .16rem;
+    color: #333;
+    font-weight: bolder;
+    line-height: .1875rem;
+    display: flex;
+    justify-content: center;
+}
+.limit .title i{
+    width: .1875rem;
+    height: .1875rem;
+    margin-left: .05rem;
+}
+
+.limit ul{
+    display: flex;
+    padding: 0 .05rem 0 .15rem;
+}
+.limit ul li{
+    width: 1.46rem;
+    height: 2.18rem;
+    margin-right: .1rem;
+}
+.limit ul li .pic{
+    width: 1.46rem;
+    height: 1.46rem;
+}
+.limit ul li .time{
+    width: 100%;
+    height: .16rem;
+    border-radius: .08rem;
+    background: #FFF4E6;
+    font-size: .12rem;
+    color: #bf915a;
+    text-align: center;
+    line-height: .16rem;
+    margin: .12rem 0 .08rem;
+}
+.limit ul li .name{
+    width: 100%;
+    height: .16rem;
+    font-size: .14rem;
+    color: #333;
+    line-height: .16rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: .05rem;
+}
+.limit ul li .price{
+    width: 100%;
+    height: .14rem;
+    font-size: .14rem;
+    color: #c81c28;
+}
+.limit ul li .price .old{
+    font-size: .12rem;
+    color: #aaa;
+    text-decoration: line-through;
+    margin-left: .05rem;
+}
