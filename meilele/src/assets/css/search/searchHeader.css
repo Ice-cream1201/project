@@ -1,11 +1,11 @@
 .ant-input-search {
-    width: 305px;
+    width: 3.05rem;
 }
 
 .ant-input-wrapper {
-    width: 305px;
+    width: 3.05rem;
     position: relative;
-    left: 11px;
+    left: .11rem;
 }
 
 .ant-input-group-addon {
@@ -13,8 +13,8 @@
 }
 
 .ant-input,
-.ant-btn {
-    margin-top: 10px;
+.ant-input-search-button {
+    margin-top: .10rem;
 }
 
 .ant-input:hover {
@@ -22,21 +22,21 @@
     border-right-width: none;
 }
 
-.ant-btn {
-    background: #f0f0f0;
+.ant-input-search-button {
+    background: #d9d9d9;
     border-color: #d9d9d9;
 }
 
 .anticon {
-    width: 16px;
-    height: 16px;
+    width: .16rem;
+    height: .16rem;
     color: #666;
 }
 
 .annuler {
     display: inline-block;
     position: relative;
-    left: 20px;
-    top: -5px;
-    font-size: 18px;
+    left: .20rem;
+    top: -.05rem;
+    font-size: .18rem;
 }

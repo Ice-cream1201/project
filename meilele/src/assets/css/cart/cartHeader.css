@@ -1,6 +1,6 @@
 .ant-page-header {
-    height: 47px;
-    border-bottom: 1px solid #d8d8d8;
+    height: .47rem;
+    border-bottom: .01rem solid #d8d8d8;
 }
 
 .ant-page-header {
@@ -9,8 +9,8 @@
 
 .ant-page-header-back {
     margin: 0;
-    margin-left: 16px;
-    line-height: 47px;
+    margin-left: .16rem;
+    line-height: .47rem;
 }
 
 .ant-page-header-heading {
@@ -20,10 +20,10 @@
 .ant-page-header-heading-title {
     width: 70%;
     height: 100%;
-    font-size: 18px;
+    font-size: .18rem;
     padding: 0;
-    line-height: 47px;
-    margin-left: 30px;
+    line-height: .47rem;
+    margin-left: .30rem;
     font-weight: normal;
     display: inline-block;
     text-align: center !important;
@@ -31,62 +31,74 @@
 
 .ant-page-header-heading-extra {
     display: block;
-    width: 30px;
+    width: .30rem;
     float: right;
     padding: 0;
-    margin-right: 10px;
+    margin-right: .10rem;
     position: relative;
 }
 
-.ant-btn {
-    padding: 3px 6px;
+.ant-dropdown-trigger {
+    padding: .03rem .06rem;
     background: #fff;
     border: none;
+    margin-top: .05rem;
 }
 
 .login-btn {
-    width: 48px;
-    height: 23px;
-    border: 1px solid #da0000;
-    font-size: 14px;
+    width: .48rem;
+    height: .23rem;
+    text-align: center;
+    padding: 0;
+    border: .01rem solid #da0000;
+    font-size: .14rem;
     color: #da0000;
-    margin-right: 3px;
+    margin-right: .03rem;
 }
 
 .login-btn:hover {
-    border: 1px solid #da0000;
+    border: .01rem solid #da0000;
     color: #da0000;
 }
 
 .ant-dropdown-menu {
-    width: 130px;
-    height: 250px;
+    width: 1.30rem;
+    height: 2.50rem;
     background-color: rgba(0, 0, 0, .65);
     position: absolute;
-    right: 0px;
+    right: 0;
     text-align: center;
     padding: 0;
 }
 
 .ant-dropdown-menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 50px;
-    padding: 0;
-    text-align: center;
+    height: .50rem;
 }
 
 .ant-dropdown-menu-item>a {
     display: block;
-    width: 106px;
-    height: 50px;
-    line-height: 50px;
-    font-size: 16px;
+    width: 1.06rem;
+    height: .50rem;
+    line-height: .50rem;
+    font-size: .16rem;
     color: #fff;
-    margin-right: 10px;
+    margin: 0;
+    padding: 0;
+    border-bottom: .01rem solid;
 }
 
 .cartImg {
-    width: 20px;
-    height: 18px;
-    margin-right: 10px;
+    width: .20rem;
+    height: .18rem;
+    margin-right: .10rem;
+}
+
+.cartImg4 {
+    width: .20rem;
+    height: .18rem;
+    margin-right: .2rem;
 }

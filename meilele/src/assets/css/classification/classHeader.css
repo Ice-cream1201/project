@@ -1,0 +1,24 @@
+.classHeader {
+    height: .45rem;
+    border-bottom: .01rem solid #dfdfdf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.classText {
+    width: 3.45rem;
+    height: .3rem;
+    background: #eee;
+    border-radius: .05rem;
+    color: #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.classImg {
+    width: .15rem;
+    height: .15rem;
+    margin-right: .05rem;
+}

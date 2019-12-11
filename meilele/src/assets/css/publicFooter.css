@@ -1,0 +1,26 @@
+.publicFooter {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: .57rem;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerImg {
+    width: .27rem;
+    height: .27rem;
+}
+
+.footer-text {
+    font-size: .12rem;
+    color: #666;
+}

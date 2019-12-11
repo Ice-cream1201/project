@@ -1,11 +1,11 @@
 .searchHeader {
     background: #fff;
     padding: 0;
-    height: 52px;
+    height: .52rem;
 }
 
 .searchContent {
-    height: 412px;
+    height: 4.12rem;
 }
 
 .searchFooter {
@@ -13,9 +13,9 @@
 }
 
 .footer-img {
-    width: 60px;
-    height: 60px;
+    width: .60rem;
+    height: .60rem;
     position: fixed;
-    left: 15px;
-    bottom: 30px;
+    left: .15rem;
+    bottom: .30rem;
 }

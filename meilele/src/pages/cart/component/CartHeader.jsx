@@ -29,7 +29,7 @@ const menu = (
     </Menu.Item>
     <Menu.Item>
       <a target="_blank" rel="noopener noreferrer" href="#">
-        <img src={Img4} className="cartImg" alt=""/>
+        <img src={Img4} className="cartImg4" alt=""/>
         体验馆
       </a>
     </Menu.Item>
@@ -63,7 +63,7 @@ export default class CartHeader extends Component {
       <div style={{backgroundColor:"#fff"}}>
         <PageHeader
           style={{
-            border: '1px solid rgb(235, 237, 240)',
+            border: '.01rem solid rgb(235, 237, 240)',
           }}
           onBack={() => null}
           title="购物车"
@@ -72,8 +72,8 @@ export default class CartHeader extends Component {
           ]}
         >
         </PageHeader>
-        <div style={{width:"100%",textAlign:"center",height:"46px",borderBottom:"1px solid #d8d8d8"}}>
-          <p style={{fontSize:"13px"}}>
+        <div style={{width:"100%",textAlign:"center",height:".46rem",borderBottom:".01rem solid #d8d8d8"}}>
+          <p style={{fontSize:".13rem",lineHeight:".46rem"}}>
             <Button className="login-btn">登录</Button>
             后，您可以同步电脑和手机购物车中的商品
           </p>

@@ -1,8 +1,8 @@
 .thermique {
-    height: 30px;
+    height: .30rem;
     width: 100%;
-    font-size: 14px;
-    line-height: 30px;
-    padding-left: 16px;
+    font-size: .14rem;
+    line-height: .30rem;
+    padding-left: .16rem;
     background: #ebebeb;
 }
