@@ -55,6 +55,10 @@ export default class CartContentLogin extends Component {
                   >
                     全选
                   </Checkbox>
+                <div style={{textAlign:"left",paddingRight:"10px",lineHeight:"15px"}}>
+                  <p style={{color:"#da0000",fontSize:".14rem",fontWeight:"bold"}}><span>合计:</span><span>¥0.00</span></p>
+                  <p style={{fontSize:".12rem"}}>不含运费</p>
+                </div>
               </div>
             </div>
         </div>
