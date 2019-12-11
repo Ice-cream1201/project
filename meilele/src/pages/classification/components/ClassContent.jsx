@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { Menu } from 'antd';
 import "../../../assets/css/classification/classContent.css"
 
-const { SubMenu } = Menu;
 export default class ClassContent extends Component {
   state = {
     mode: 'inline',
