@@ -1,0 +1,36 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: .41rem;
+    padding: .05rem .05rem;
+    display: flex;
+    background: #fff;
+}
+.logo{
+    width: .84rem;
+    height: .22rem;
+}
+.inp{
+    margin-left: .1rem;
+}
+.inp input{
+    margin: 0;
+    height: .29rem;
+    background: #eee;
+    color: #aaa;
+}
+.place{
+    display: flex;
+    padding-top: .07rem;
+    margin-left: .15rem;
+}
+.place p{
+    font-size: .15rem;
+}
+.place .iconDown{
+    margin-left: .06rem;
+    color: #aaa;
+}

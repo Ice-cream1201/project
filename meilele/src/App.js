@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom'
+import { BrowserRouter as Router, Route, Switch,Redirect,Link} from 'react-router-dom'
 import 'antd/dist/antd.css'
 import './assets/css/gobal.css'
 import Search from "./pages/search"

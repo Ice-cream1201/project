@@ -1,0 +1,23 @@
+.list{
+    width: 100%;
+    padding: .06rem .07rem .15rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+}
+.list .item{
+    width: .9023rem;
+    height: .6473rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list .item i{
+    width: .5508rem;
+    height: .5273rem;
+}
+.list .item p{
+    height: .15rem;
+    font-size: .12rem;
+    line-height: .15rem;
+}

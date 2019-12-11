@@ -1,0 +1,60 @@
+.newStart{
+    width: 100%;
+    background: #fff;
+    margin-top: .05rem;
+    padding-bottom: .3rem;
+}
+.newStart .title{
+    width: 100%;
+    padding: .21rem 0 .21rem 0;
+    font-size: .16rem;
+    color: #333;
+    font-weight: bolder;
+    line-height: .1875rem;
+    display: flex;
+    justify-content: center;
+}
+.newStart .title i{
+    width: .1875rem;
+    height: .1875rem;
+    margin-left: .05rem;
+}
+
+.newStart .content{
+    width: 100%;
+    height: 2.46rem;
+    padding: 0 .15rem;
+}
+.newStart .content .fl{
+    float: left;
+}
+.newStart .content .big{
+    width: 1.7rem;
+    height: 2.46rem;
+    background: url(http://image.meilele.com//images/upload/201908/7f63ed785cb085d0c276bd810eaaa9e8.jpg) no-repeat center;
+    background-size: 100%;
+    margin-right: .05rem;
+}
+.newStart .content .small{
+    width: 1.7rem;
+    height: 1.2rem;
+    background: url(http://img004.mll3321.com//images/upload/201908/e59e3ae6094e76e963296a9228cdc6f5.jpg) no-repeat center;
+    background-size: 100%;
+}
+.newStart .content .smallDown{
+    background: url(http://img003.mll3321.com//images/upload/201908/61fad1da0290008ef32cc83c71025121.jpg) no-repeat center;
+    background-size: 100%;
+    margin-top: .06rem;
+}
+.newStart .content .name{
+    font-size: .14rem;
+    color: #333;
+    line-height: .18rem;
+    margin: .2rem 0 .05rem .2rem;
+}
+.newStart .content .price{
+    font-size: .14rem;
+    color: #c81c28;
+    line-height: .16rem;
+    margin: 0 0 0 .2rem;
+}
