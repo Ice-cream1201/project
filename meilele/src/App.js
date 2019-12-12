@@ -23,7 +23,6 @@ class App extends Component {
               <Route path="/my" exact component = {My}/>
               <Route path="/register" exact component = {Register}/>
               <Redirect to = "/home" from = "/" exact/>
-
             </Switch>
           </Router>
         )
