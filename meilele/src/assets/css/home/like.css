@@ -1,0 +1,56 @@
+.like{
+    width: 100%;
+    background: #fff;
+    margin-top: .05rem;
+    padding-bottom: .1rem;
+}
+.like .title{
+    width: 100%;
+    padding: .21rem 0 .21rem 0;
+    font-size: .16rem;
+    color: #333;
+    font-weight: bolder;
+    line-height: .1875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.like ul{
+    width: 100%;
+    padding: 0 .05rem 0 .15rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.like ul li{
+    width: 1.675rem;
+    margin: 0 .1rem .25rem 0;
+}
+.like ul li .pic{
+    width: 100%;
+    height: 1.1rem;
+}
+.like ul li .price{
+    width: 100%;
+    font-size: .14rem;
+    color: #c81c28;
+    line-height: .16rem;
+    padding: 0 .05rem;
+    margin: .12rem 0 .03rem 0;
+}
+.like ul li .name{
+    width: 100%;
+    font-size: .14rem;
+    color: #333;
+    line-height: .16rem;
+    margin: 0 0 .05rem .05rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.like ul li .num{
+    width: 100%;
+    font-size: .12rem;
+    color: #aaa;
+    line-height: .16rem;
+    padding: 0 .05rem;
+}
