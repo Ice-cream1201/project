@@ -1,7 +1,10 @@
 import React, { Component } from 'react'
+import {connect} from 'react-redux'
+import {getLimit} from '../store/limitReducer'
+// import {getLimitData} from '../../../axios/api'
 import '../../../assets/css/home/limit.css'
 
-export default class Limit extends Component {
+class Limit extends Component {
     render() {
         return (
             <div className="limit">
@@ -27,4 +30,19 @@ export default class Limit extends Component {
             </div>
         )
     }
+    componentDidMount(){
+        // getLimitData().then(res=>{
+        //     console.log(res)
+        // })
+        this.props.getLimit()
+    }
 }
+
+const mapStateToProps = state =>{
+    console.log(state.limitReducer)
+    return{
+        
+    }
+}
+
+export default connect(mapStateToProps,{getLimit})(Limit)
