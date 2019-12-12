@@ -21,10 +21,8 @@ export default class Home extends Component {
                 <Limit />
                 <NewStart />
                 <Room />
-            </Fragment>
-            <div>
                 <PublicFooter/>
-            </div>
+            </Fragment>
         )
     }
 }
