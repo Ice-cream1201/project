@@ -25,17 +25,16 @@ export default (state=defaultState,action)=>{
     }
 }
 
-const setLimitData = (data)=>{
-    return {
-        type : GET_LIMIT_LIST,
-        data
-    }
-}
+// const setLimitData = (data)=>{
+//     return {
+//         type : GET_LIMIT_LIST,
+//         data
+//     }
+// }
 
 export const getLimit = ()=>{
     return (dispatch)=>{
         getLimitData().then(res=>{
-            console.log(res.result)
             // const {2018Msy_tg = Msy_tg,time,url} = res.result
             // dispatch(setLimitData( res.data ))
         })

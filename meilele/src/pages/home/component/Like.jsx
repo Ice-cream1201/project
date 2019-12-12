@@ -5,7 +5,6 @@ import {getLike} from '../store/limitReducer'
 
 class Like extends Component {
     render() {
-        // console.log(this.props.state)
         const {state} = this.props
         return (
             <div className="like">
@@ -15,8 +14,8 @@ class Like extends Component {
                 <ul>
                     
                     {
-                        state.likeData.map((item)=>{
-                            return  <li key={item.id}>
+                        state.likeData.map((item,index)=>{
+                            return  <li key={index}>
                                         <div className="pic">
                                             <img src="http://image.meilele.com/images/201807/1531459848890734158.jpg" alt=""/>
                                         </div>

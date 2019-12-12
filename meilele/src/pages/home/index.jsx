@@ -10,7 +10,9 @@ import Room from './component/Room'
 import Sstyle from './component/Sstyle'
 import BigCard from './component/BigCard'
 import Like from './component/Like'
+import CartFooter from "../cart/component/CartFooter"
 import PublicFooter from "../component/PublicFooter"
+import HomeSide from "./component/HomeSide"
 
 export default class Home extends Component {
     render() {
@@ -26,6 +28,8 @@ export default class Home extends Component {
                 <Sstyle />
                 <BigCard />
                 <Like />
+                <CartFooter/>
+                <HomeSide/>
                 <PublicFooter/>
             </Fragment>
         )

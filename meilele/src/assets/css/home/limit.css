@@ -1,10 +1,11 @@
-.limit{
+.limit {
     width: 100%;
     background: #fff;
     margin-top: .05rem;
     padding-bottom: .3rem;
 }
-.limit .title{
+
+.limit .title {
     width: 100%;
     padding: .21rem 0 .21rem 0;
     font-size: .16rem;
@@ -14,26 +15,49 @@
     display: flex;
     justify-content: center;
 }
-.limit .title i{
+
+.limit .title i {
     width: .1875rem;
     height: .1875rem;
     margin-left: .05rem;
 }
 
-.limit ul{
+.limit ul {
     display: flex;
     padding: 0 .05rem 0 .15rem;
+    overflow-x: auto;
 }
-.limit ul li{
+
+.limit ul li {
     width: 1.46rem;
     height: 2.18rem;
     margin-right: .1rem;
 }
-.limit ul li .pic{
+
+.limit ul li .pic {
     width: 1.46rem;
     height: 1.46rem;
+    position: relative;
+    top: 0;
+    left: 0;
 }
-.limit ul li .time{
+
+.limit ul li .limit-span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: .45rem;
+    height: .2rem;
+    background: #ff7a6a;
+    font-size: .12rem;
+    color: #fff;
+    text-align: center;
+    line-height: .2rem;
+}
+
+.limit ul li .time {
     width: 100%;
     height: .16rem;
     border-radius: .08rem;
@@ -44,7 +68,8 @@
     line-height: .16rem;
     margin: .12rem 0 .08rem;
 }
-.limit ul li .name{
+
+.limit ul li .name {
     width: 100%;
     height: .16rem;
     font-size: .14rem;
@@ -55,13 +80,15 @@
     text-overflow: ellipsis;
     margin-bottom: .05rem;
 }
-.limit ul li .price{
+
+.limit ul li .price {
     width: 100%;
     height: .14rem;
     font-size: .14rem;
     color: #c81c28;
 }
-.limit ul li .price .old{
+
+.limit ul li .price .old {
     font-size: .12rem;
     color: #aaa;
     text-decoration: line-through;

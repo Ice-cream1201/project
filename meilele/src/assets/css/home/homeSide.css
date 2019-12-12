@@ -1,0 +1,24 @@
+.home-xinxi {
+    width: .4rem;
+    height: .4rem;
+    background: #fff url(../../img/xinxi.png) no-repeat center;
+    background-size: .2rem .17rem;
+    border-radius: .2rem;
+    border: 1px solid #e5e5e5;
+    position: fixed;
+    right: .2rem;
+    bottom: 1.2rem;
+}
+
+.ant-back-top {
+    margin-bottom: .2rem;
+}
+
+.ant-back-top-inner {
+    background: #fff url(../../img/back.png) no-repeat center;
+    background-size: .2rem .11rem;
+    width: .4rem;
+    height: .4rem;
+    border-radius: .2rem;
+    border: 1px solid #e5e5e5;
+}
