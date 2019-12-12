@@ -7,7 +7,9 @@ import List from './component/List'
 import Limit from './component/Limit'
 import NewStart from './component/NewStart'
 import Room from './component/Room'
-import React, { Component } from 'react'
+import Sstyle from './component/Sstyle'
+import BigCard from './component/BigCard'
+import Like from './component/Like'
 import PublicFooter from "../component/PublicFooter"
 
 export default class Home extends Component {
@@ -21,6 +23,9 @@ export default class Home extends Component {
                 <Limit />
                 <NewStart />
                 <Room />
+                <Sstyle />
+                <BigCard />
+                <Like />
                 <PublicFooter/>
             </Fragment>
         )

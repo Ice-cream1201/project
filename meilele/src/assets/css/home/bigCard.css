@@ -1,0 +1,28 @@
+.bigCard{
+    width: 100%;
+    background: #fff;
+    margin-top: .05rem;
+    padding-bottom: .1rem;
+}
+.bigCard .title{
+    width: 100%;
+    padding: .21rem 0 .21rem 0;
+    font-size: .16rem;
+    color: #333;
+    font-weight: bolder;
+    line-height: .1875rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bigCard ul{
+    width: 100%;
+    padding: 0 .05rem 0 .15rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bigCard ul li{
+    width: 1.083rem;
+    height: 1.083rem;
+    margin: 0 .1rem .15rem 0;
+}
