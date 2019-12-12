@@ -7,6 +7,8 @@ import List from './component/List'
 import Limit from './component/Limit'
 import NewStart from './component/NewStart'
 import Room from './component/Room'
+import React, { Component } from 'react'
+import PublicFooter from "../component/PublicFooter"
 
 export default class Home extends Component {
     render() {
@@ -20,6 +22,9 @@ export default class Home extends Component {
                 <NewStart />
                 <Room />
             </Fragment>
+            <div>
+                <PublicFooter/>
+            </div>
         )
     }
 }
