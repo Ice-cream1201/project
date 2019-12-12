@@ -1,6 +1,7 @@
 .classLeft {
     height: 5.65rem;
     border-right: 1px solid #dfdfdf;
+    background: #fff;
 }
 
 .ant-menu-inline {
@@ -33,8 +34,10 @@
 }
 
 .classRight {
+    width: 3rem;
     padding-left: .13rem;
     padding-right: .13rem;
+    background: #fff;
 }
 
 .class-text {
