@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import {withRouter} from "react-router-dom"
 import SearchImg from "../../../assets/img/search1.png"
 import '../../../assets/css/home/header.css'
-import { Icon } from 'antd';
-
+import DownImg from "../../../assets/img/down.png"
 class Header extends Component {
     constructor(props){
         super(props)
@@ -25,8 +24,11 @@ class Header extends Component {
                     </p>
                 </div>
                 <div className="place">
-                    <p>北京</p>
-                    <Icon type="down" className="iconDown" />
+                    <p>
+                        <span>北京</span>
+                        <span><img src={DownImg} className="DownImg"/></span>
+                    </p>
+                    
                 </div>
 
             </div>

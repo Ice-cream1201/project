@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { PageHeader, Menu, Dropdown, Icon, Button, Typography} from 'antd';
+import { PageHeader, Menu, Dropdown, Icon, Button} from 'antd';
 import Img1 from "../../../assets/img/index.png"
 import Img2 from "../../../assets/img/search.png"
 import Img3 from "../../../assets/img/content.png"
@@ -10,31 +10,31 @@ import "../../../assets/css/cart/cartHeader.css"
 const menu = (
   <Menu>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a rel="noopener noreferrer" href="/home">
         <img src={Img1} className="cartImg" alt=""/>
         商城首页
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a  rel="noopener noreferrer" href="/class">
         <img src={Img2} className="cartImg" alt=""/>
         分类搜索
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a  rel="noopener noreferrer" href="/my">
         <img src={Img3} className="cartImg" alt=""/>
         个人中心
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a  rel="noopener noreferrer" href="/museum">
         <img src={Img4} className="cartImg4" alt=""/>
         体验馆
       </a>
     </Menu.Item>
     <Menu.Item>
-      <a target="_blank" rel="noopener noreferrer" href="#">
+      <a  rel="noopener noreferrer" href="/">
         <img src={Img5} className="cartImg" alt=""/>
         咨询客服
       </a>

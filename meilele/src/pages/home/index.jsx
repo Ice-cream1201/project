@@ -28,7 +28,9 @@ export default class Home extends Component {
                 <Sstyle />
                 <BigCard />
                 <Like />
-                <CartFooter/>
+                <div style={{marginBottom:".5rem"}}>
+                    <CartFooter/>
+                </div>
                 <HomeSide/>
                 <PublicFooter/>
             </Fragment>

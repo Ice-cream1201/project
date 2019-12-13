@@ -51,7 +51,6 @@ const setLikeData = (data)=>{
 export const getLike = ()=>{
     return (dispatch)=>{
         getLikeData().then(res=>{
-            // console.log(res)
             dispatch(setLikeData( res.result ))
         })
     }

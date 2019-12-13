@@ -1,0 +1,25 @@
+.am-navbar-light {
+    height: .47rem;
+}
+
+.am-icon-left {
+    width: .24rem;
+    height: .47rem;
+}
+
+.am-navbar-right {
+    font-size: .16rem;
+    color: #333;
+    margin-right: .2rem;
+}
+
+.LeftImg {
+    width: .11rem;
+    height: .2rem;
+}
+
+.DownImg {
+    width: .12rem;
+    height: .07rem;
+    margin-left: .05rem;
+}

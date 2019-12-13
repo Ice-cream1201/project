@@ -1,0 +1,125 @@
+.message-box {
+    width: 3.5rem;
+    margin: 0 auto;
+    margin-top: .18rem;
+    z-index: 555;
+    position: relative;
+    top: -.5rem;
+}
+
+.box1 {
+    height: 2.45rem;
+    background: #fff;
+    border-radius: .15rem;
+}
+
+.box2 {
+    height: 2.45rem;
+    margin-top: .18rem;
+    background: #fff;
+    border-radius: .15rem;
+}
+
+.box-title {
+    height: .60rem;
+    padding: .18rem .18rem 0;
+    margin-bottom: .12rem;
+    position: relative;
+}
+
+.h5 {
+    font-size: .18rem;
+    color: #333;
+}
+
+.ads-text {
+    display: inline-block;
+    width: .8rem;
+    height: .16rem;
+    padding-left: .14rem;
+    margin-left: .12rem;
+    font-size: .14rem;
+    color: #999;
+    line-height: .16rem;
+}
+
+.AdsImg {
+    width: .1rem;
+    height: .13rem;
+    margin-right: .03rem;
+}
+
+.ads {
+    font-size: .14rem;
+    color: #999;
+    width: 2.64rem;
+    height: .19rem;
+    line-height: .19rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.right-box {
+    width: .12rem;
+    height: .23rem;
+    position: absolute;
+    top: 50%;
+    right: .22rem;
+}
+
+.am-card {
+    min-height: .52rem;
+    padding-bottom: 0;
+}
+
+.am-card.am-card-full {
+    position: unset;
+}
+
+.am-card-header {
+    padding: 0;
+}
+
+.am-card-header-content {
+    font-size: .16rem;
+    color: #333;
+    background: #fff url(../../img/qqq.png) no-repeat;
+    background-position: 1.3rem 0.18rem;
+    background-size: .19rem .18rem;
+    margin-bottom: .12rem;
+    padding: 0px .18rem;
+}
+
+.am-card-header-content>img {
+    width: .53rem;
+    height: .53rem;
+}
+
+.ant-btn-background-ghost {
+    width: .84rem;
+    height: .18rem;
+    margin: 0 7px 7px 0;
+    text-align: center;
+    line-height: .14rem;
+    padding: 0;
+}
+
+.ant-btn-background-ghost span {
+    font-size: .12rem;
+}
+
+.ant-btn-background-ghost.ant-btn-danger.danger-button {
+    width: .61rem;
+    height: .18rem;
+    border-color: #ff9d11;
+    color: #ff9d11;
+}
+
+.nav-box {
+    display: inline-block;
+    width: 50%;
+    height: .52rem;
+    line-height: .52rem;
+    text-align: center;
+}

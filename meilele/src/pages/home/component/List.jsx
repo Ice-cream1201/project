@@ -1,11 +1,19 @@
 import React, { Component } from 'react'
+import {withRouter} from "react-router-dom"
 import '../../../assets/css/home/list.css'
 
-export default class List extends Component {
+class List extends Component {
+    constructor(props){
+        super(props)
+        this.handleClick = this.handleClick.bind(this)
+    }
+    handleClick(){
+        this.props.history.push("/museum")
+    }
     render() {
         return (
             <div className="list">
-                <div className="item">
+                <div className="item" onClick={this.handleClick}>
                     <i>
                         <img src="http://image.meilele.com/images/201907/1563130946587908766.jpg" alt=""/>
                     </i>
@@ -57,3 +65,4 @@ export default class List extends Component {
         )
     }
 }
+export default withRouter(List)

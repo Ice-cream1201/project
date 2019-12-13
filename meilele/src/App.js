@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route, Switch,Redirect} from 'react-router-dom'
 import 'antd/dist/antd.css'
+import 'antd-mobile/dist/antd-mobile.css'; 
 import './assets/css/gobal.css'
 import Search from "./pages/search"
 import Cart from "./pages/cart"
@@ -9,6 +10,7 @@ import Login from './pages/login'
 import My from './pages/my'
 import Register from './pages/register'
 import Home from './pages/home'
+import Museum from './pages/museum/Museum'
 
 class App extends Component {
     render() {
@@ -16,6 +18,7 @@ class App extends Component {
           <Router>
             <Switch>
               <Route path="/home" exact component = {Home}/>
+              <Route path="/museum" exact component = {Museum}/>
               <Route path="/search" exact component = {Search}/>
               <Route path="/cart" exact component = {Cart}/>
               <Route path="/class" exact component = {Classification}/>
