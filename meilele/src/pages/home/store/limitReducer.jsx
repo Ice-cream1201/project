@@ -6,8 +6,7 @@ const GET_LIKE_LIST = "GET_LIKE_LIST"
 
 const defaultState = {
     limitData : [],
-    likeData : [],
-    str: '1212112121'
+    likeData : []
 }
 
 export default (state=defaultState,action)=>{
@@ -40,11 +39,10 @@ export default (state=defaultState,action)=>{
     }
 }
 
-const setLimitData = (data,str)=>{
+const setLimitData = (data)=>{
     return {
         type : GET_LIMIT_LIST,
-        data,
-        str
+        data
     }
 }
 
