@@ -6,11 +6,21 @@ img {
 .header {
     width: 100%;
     height: .41rem;
-    padding: .05rem .05rem;
+    padding: .08rem .08rem;
     display: flex;
     background: #fff;
+  
 }
-
+.headerScroll {
+    width: 100%;
+    height: .41rem;
+    padding: .08rem .08rem;
+    display: flex;
+    background: #fff;
+    position: fixed;  left: 0;
+    top: 0;
+    z-index: 9999;
+}
 .logo {
     width: .84rem;
     height: .22rem;

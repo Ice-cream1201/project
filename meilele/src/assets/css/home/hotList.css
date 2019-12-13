@@ -1,0 +1,35 @@
+.hotList{
+    width: 100%;
+    background: #fff;
+    margin-top: .05rem;
+    padding-bottom: .1rem;
+}
+.hotList .title{
+    width: 100%;
+    padding: .21rem 0 .21rem 0;
+    font-size: .16rem;
+    color: #333;
+    font-weight: bolder;
+    line-height: .1875rem;
+    text-align: center;
+}
+.hotList .bigPic{
+    width: 3.45rem;
+    height: 2.25rem;
+    margin: 0 auto;
+}
+.hotList .smallPic{
+    width: .12rem;
+    height: .115rem;
+    margin: .1rem 0 0 .2rem;
+}
+.hotList .txt{
+    width: 100%;
+    padding: 0 .3rem 0 .4rem;
+    font-size: .13rem;
+    color: #666;
+    line-height: .21rem;
+}
+.hotList .txt span{
+    color: #c81c28;
+}

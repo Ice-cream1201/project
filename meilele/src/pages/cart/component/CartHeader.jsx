@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { PageHeader, Menu, Dropdown, Icon, Button, Typography} from 'antd';
+import { PageHeader, Menu, Dropdown, Icon, Button} from 'antd';
 import Img1 from "../../../assets/img/index.png"
 import Img2 from "../../../assets/img/search.png"
 import Img3 from "../../../assets/img/content.png"

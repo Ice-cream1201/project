@@ -17,7 +17,7 @@ class Like extends Component {
                         state.likeData.map((item,index)=>{
                             return  <li key={index}>
                                         <div className="pic">
-                                            <img src="http://image.meilele.com/images/201807/1531459848890734158.jpg" alt=""/>
+                                            <img src={item.goods_thumb }alt=""/>
                                         </div>
                                         <p className="price">￥{item.shop_price}</p>
                                         <p className="name">{item.new_goods_name}</p>
@@ -40,6 +40,7 @@ class Like extends Component {
 }
 
 const mapStateToProps = state =>{
+    // console.log(state.limitReducer)
     return{
         state : state.limitReducer
     }
